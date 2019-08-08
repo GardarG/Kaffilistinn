@@ -1,0 +1,77 @@
+body {
+  background: #FFFFFF;
+  /* For browsers that do not support gradients */
+  /* background: -webkit-linear-gradient(left, #FFFFFF, #D1D1D1); */
+  /*Safari 5.1-6*/
+  /* background: -o-linear-gradient(right, #FFFFFF, #D1D1D1); */
+  /*Opera 11.1-12*/
+  /* background: -moz-linear-gradient(right, #FFFFFF, #D1D1D1); */
+  /*Fx 3.6-15*/
+  /* background: linear-gradient(to right, #FFFFFF, #D1D1D1); */
+  /*Standard*/
+  color: #324376;
+  font-family: 'Comfortaa', cursive;
+}
+
+.container {
+  /* height: 100px; */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  /* display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 10% 0 0 0; */
+  margin: 0;
+}
+#Kaffilistinn {
+  margin-left: 3%;
+  font-size: 25px;
+  font-weight:bold;
+}
+
+#now {
+  text-align: center;
+  box-sizing: border-box;
+  height: 70px;
+  width: 250px;
+  border-radius: 10%;
+  border: 10px solid #e8b890;
+  background: #ebe5bc;
+  box-shadow: 2px 2px 2px #324376, -2px 2px 2px #324376, -2px -2px 2px #324376, 2px -2px 2px #324376;
+  /* margin-top: 5%; */
+  margin-right: 5%;
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+#coffee {
+  margin-right: -13%
+}
+
+#hour-glass {
+  margin-right: -33.5%
+}
+
+#next {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+/* #day span {
+  display: block;
+  font-weight: 700;
+  font-size: 30px;
+} */
+/* #date span {
+  display: block;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 45px;
+  padding-bottom: 15px;
+} */
